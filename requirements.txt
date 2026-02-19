@@ -1,0 +1,19 @@
+# ── NAML 2026 Demo Requirements ───────────────────────────────
+# Covers all five demo notebooks (demo1–demo5) and common/ utilities.
+
+# AutoGen 0.7 stack (Demos 1–5)
+autogen-agentchat~=0.7.5
+autogen-ext[azure]~=0.7.5
+autogen-core~=0.7.5
+
+# Jupyter / notebook runtime
+jupyter
+ipywidgets>=8.0
+
+# Azure Identity & Key Vault (used by common/config.py)
+azure-identity>=1.15
+azure-keyvault-secrets>=4.7
+
+# Environment variable management
+python-dotenv>=1.0
+
